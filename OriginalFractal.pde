@@ -12,7 +12,7 @@ public void draw()
 
 public void myFractal(int x, int y, int d)
 {
-	if(d <= 30){
+	if(d <= 40){
 		ellipse(x,y,d,d);
 	}
 	else{
